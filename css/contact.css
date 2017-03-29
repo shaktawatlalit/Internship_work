@@ -1,0 +1,159 @@
+        body
+             {    max-width:100%;
+                 font-family: 'Open Sans', sans-serif;
+                 overflow-x:hidden;
+                 overflow-y:scroll;
+                 font-size:16px;
+             }
+             .button
+             {
+                 border:1px solid deeppink;
+                 background-color:deeppink;
+                 border-radius:20px;
+             }
+           .navbar-default .navbar-nav .button>a 
+             {
+                 color:white;
+               }
+             .navigation
+             {   width:100%;
+                 margin-top:1%;
+               
+             }
+            .navbar-nav>li>a {
+                padding-top: 15px;
+                 padding-bottom: 15px;
+               }
+            .navbar-brand 
+             {
+                float:right;
+                height: 50px;
+                
+                font-size: 18px;
+                line-height:20px;
+             }
+             .navbar-header
+             {
+                 padding-left:1%;
+                 position:relative;
+             }
+             .navbar-default
+             {
+                 background-color: white;
+                 border-bottom-color: deeppink;
+              }
+              .navbar-header a
+             {
+                 text-decoration:none;
+            }
+              .beta
+            {
+                
+                color:deeppink;
+                position:absolute;
+                left:200px;
+                top:-5px;
+                font-size:12px;
+             }
+              .navbar-default .navbar-nav>li>a:hover 
+          {
+               color:deeppink;
+              background-color: transparent;
+         }
+           .navbar-default .navbar-nav .button>a:hover
+        {
+                 color:black;
+                 background-color: transparent;
+          }
+              .footer
+             {   width:100%;
+                 background-color:gray;
+                 color:white;
+                 
+                
+             }
+             .footer a
+             {
+                 color:white;
+                 text-decoration:none;
+             }
+             
+             .form-container
+             {
+                 width:40%;
+                 text-align:center;
+                 background-color:linen;
+                 border: 1px solid white;
+                 border-radius: 5px;
+				 margin-bottom:4%;
+				 padding-bottom:2%;
+                 margin-top:8%;
+             }
+             .form-row
+             {
+                 padding-top:2%;
+                 padding-left: 7%;
+                 padding-right: 7%;
+             }
+             input.form-control 
+             {
+                  height: 50px;
+                  padding-left:8%;
+              }
+             input[type="text-area"] 
+             {
+                    height: 100px;
+                    width: 100%;
+              }
+             .form-control-feedback
+             {
+                    position: absolute;
+                    top: 8px;
+                    left: 0;
+                    z-index: 2;
+                    display: block;
+                    width: 34px;
+                    height: 34px;
+                    line-height: 34px;
+                    text-align: center;
+                    pointer-events: none;
+               }
+              .msg
+             {
+                    position: absolute;
+                    top: 33px;
+                    left: 0;
+                    z-index: 2;
+                    display: block;
+                    width: 34px;
+                    height: 34px;
+                    line-height: 34px;
+                    text-align: center;
+                    pointer-events: none;   
+             }
+             
+           span.beta1
+             {
+                    color: gray;
+                    position: absolute;
+                    font-size: 10px;
+                    top: 28px;
+                    left:62px;
+            }
+              @media screen and (max-width:600px)
+              {
+                  .footer
+				  {
+				   position:static;
+				  }
+                  .footer .row
+                  {
+                      text-align:center;
+                  }
+                  .form-container
+                  {
+                      width:100%;
+                      padding-bottom:2%;
+                      margin-top:18%;
+                  }
+             }
